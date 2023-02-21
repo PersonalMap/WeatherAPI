@@ -17,4 +17,8 @@ Search_image=PhotoImage(file="search.png") #search icon
 myimage=Label(image=Search_image)
 myimage.place(x=20, y=20)  #placerar search bar
 
+textfield=tk.Entry(root, justify="center", width = 16, font=("poppins", 44, "bold"), bg="#92e5d3", border=0, fg="white")
+textfield.place(x=50, y = 40)
+textfield.focus()
+
 root.mainloop()
